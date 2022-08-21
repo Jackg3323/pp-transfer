@@ -8,12 +8,10 @@ function App() {
     event.preventDefault();
     const form = event.target;
     const amount = form.transfer.value;
-    if (amount <= balance) {
+    if (balance >= amount) {
       setBalance(balance - amount);
-      // <h2>balance is now ${balance}</h2>;
       setMsg(`balance is now ${balance}`);
     } else {
-      // add print to site here
       setMsg("Balance is too low for transaction");
     }
   };
