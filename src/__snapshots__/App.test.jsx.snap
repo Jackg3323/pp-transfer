@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <form
+    className="mx-auto w-80 flex-col items-center"
+    onSubmit={[Function]}
+  >
+    <div>
+      <label
+        className="sr-only"
+        htmlFor="transfer"
+      >
+        Transfer
+      </label>
+      <input
+        className="rounded border pl-2"
+        id="transfer"
+        name="transfer"
+        placeholder="Transfer"
+        type="text"
+      />
+    </div>
+    <button
+      className="mt-4 bg-purple-500 px-4 py-2 text-white"
+      name="transfer"
+      type="submit"
+    >
+      Transfer
+    </button>
+  </form>,
+  <h2>
+     
+  </h2>,
+]
+`;
