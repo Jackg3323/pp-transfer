@@ -33,7 +33,6 @@ export default function Form({ balance, setBalance, setMsg, outputMsg }) {
         </div>
         <button
           type="submit"
-          name="transfer"
           className="mt-4 bg-purple-500 px-4 py-2 text-white"
         >
           Transfer

@@ -23,7 +23,6 @@ Array [
     </div>
     <button
       className="mt-4 bg-purple-500 px-4 py-2 text-white"
-      name="transfer"
       type="submit"
     >
       Transfer
